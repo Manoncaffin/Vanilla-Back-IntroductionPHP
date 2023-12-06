@@ -1,4 +1,5 @@
 <?php
+
 //  Exercice 1
 $name = "Manon";
 echo "<p>" . $name . "</p>";
@@ -13,9 +14,9 @@ echo "Je m'apelle" . $lastName . $lastname . "j'ai" . $age;
 // Exercice 3
 $km = 1;
 echo  "<p>". $km . "</p>";
-$km = $km + 2;
+$km = 3;
 echo "<p>" . $km . "</p>";
-$km += 125;
+$km = 125;
 echo "<p>" . $km . "</p>";
 
 // Exercice 4
@@ -30,12 +31,11 @@ echo "<p>" . $nombreEntier . "</p>";
 echo "<p>" . $choice . "</p>";
 
 // Exercice 5
-function nombres($nombre) {
-    echo   $nombre ;
-}
 
-nombres($nombre2); 
-nombres(19);
+$number2;
+echo $number2;
+$number2 = 19;
+echo $number2;
 
 // Exercice 6
 $name = "Manon";
@@ -47,5 +47,31 @@ $firstName = "Manon";
 $age = 33;
 
 echo 'Bonjour ' . $firstName . ' ' . $lastName . ', tu as ' . $age . ' ans.'
+
+// Exercice 8
+$addition = 3 + 4;
+$multiplication = 5 * 20;
+$division = 45 / 5;
+
+
+echo ($addition)."<br>";
+echo ($multiplication)."<br>";
+echo ($division)."<br>";
+
+$resultatAddition = 7;
+$resultatMultiplication = 100;
+$resultatDivision = 9;
+
+echo ($resultatAddition)."<br>";
+echo ($resultatMultiplication)."<br>";
+echo ($resultatDivision)."<br>";
+
+// OU
+
+$addition = 3 + 4;
+$multiplication = 5 * 20;
+$division = 45 / 5;
+
+echo "<p>" . $resultatAddition . " " . $resultatMultiplication . " " . $resultatDivision . "</p>;"
 
 ?>
