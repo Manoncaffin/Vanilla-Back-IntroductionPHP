@@ -1,16 +1,16 @@
 <?php
 // Exercice 1 
 // $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembe', 'decembre'];
-
+// var_dump($months);
 // Exercice 2
 // $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembe', 'decembre'];
 
-// echo $months [2];
+// echo "<p>" . $months [2] . "</p>";
 
 // Exercice 3
 // $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembe', 'decembre'];
 
-// echo $months [5];
+// echo "<p>" . $months [5] . "</p>";
 
 // Exercice 4
 // $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembe', 'decembre'];
@@ -21,7 +21,7 @@
 // var_dump ($months);
 
 // Exercice 5
-// $hautdeFrance = [
+// $departements = [
 //     'Ainse' => 02,
 //     'Nord' => 59,
 //     'Oise' => 60,
@@ -29,10 +29,10 @@
 //     'Somme' => 80,
 // ];
 
-// var_dump ($hautdeFrance);
+// var_dump ($departements);
 
 // Exercice 6
-// $hautdeFrance = [
+// $departements = [
 //     'Ainse' => 02,
 //     'Nord' => 59,
 //     'Oise' => 60,
@@ -40,10 +40,10 @@
 //     'Somme' => 80,
 // ];
 
-// echo $hautdeFrance ['Nord'];
+// echo $departements ['Nord'];
 
 // Exercice 7 
-// $hautdeFrance = [
+// $departements = [
 //     'Ainse' => 02,
 //     'Nord' => 59,
 //     'Oise' => 60,
@@ -51,15 +51,15 @@
 //     'Somme' => 80,
 // ];
 
-// var_dump ($hautdeFrance);
-// $hautdeFrance = ['Reims' => 51];
-// var_dump ($hautdeFrance);
+// var_dump ($departements);
+// $departements = ['Reims' => 51];
+// var_dump ($departements);
 
 // Exercice 8
 // $months = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'aout', 'septembre', 'octobre', 'novembe', 'decembre'];
 
-// foreach ($months as $month){
-// echo $month;
+// foreach ($months as $month) {
+// echo "<p>" . $month . "</p>";
 // }
 
 // Exercice 9
