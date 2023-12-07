@@ -12,25 +12,25 @@
 // var_dump($resultat); // Cela affichera "bool(true)"
 
 // // Exercice 2 :
-// $alexis = "alexis";
-// $turan = "turan";
+// function chaine($prenom1) {
 
-// function chaine($prenom1,$prenom2) {
-
-//     return $prenom1 . " " . $prenom2;
+//     return $prenom1;
 // }
 
-// echo chaine($alexis, $turan);
+// echo chaine("Alexis");
 
 // Exercice 3
-// function chaine($prenom1,$prenom2) {
+// function chaine($hello,$cava) {
 
-//     return $prenom1." ". $prenom2;
+//     return $hello ." ". $cava;
 // }
 // echo chaine("bonjour","aurevoir");
 
-// Exercice 4
-// function nombres ($premierNombre, $secondNombre){
+// Exercice 4 
+// (n'importe quelle condition quand il y a des paramètres/ 
+// si présence de variable = vérifie qu'une condition)
+
+// function nombres($premierNombre, $secondNombre) {
 //     if ($premierNombre > $secondNombre){
 //     echo "<p>Le premier nombre est plus grand.</p>";
 // } 
@@ -48,31 +48,31 @@
 // Exercice 5
 
 // function blaBla($unNombre, $chaineCaractere){
-//     return $unNombre." ". $chaineCaractere;
+//     return "<p>" . $unNombre ." ". $chaineCaractere . "</p>";
 // }
 //     echo blaBla(10,"Yvotte");
 
 // Exercice 6
-// function blablaBla($leNom, $lePrenom, $age){
-//     return "<p>Bonjour " . $leNom ." ". $lePrenom . ", tu as" . " " . $age."</p>";
+// function blablaBla($leNom, $lePrenom, $age) {
+//     return "<p>Bonjour " . $leNom ." ". $lePrenom . ", tu as" . $age . "ans</p>";
 // }
 
-// echo blablaBla("Caffin", "Manon", 33)
+// echo blablaBla("Caffin", "Manon", 33);
 
 // Exercice 7
-// function personne($age, $gender){
+// function personne($age, $gender) {
 
-// if ($age >= 18 && $gender === "Femme") {
-//     echo "Vous êtes une femme et vous êtes majeur.";
+// if ($age >= 18 && $gender === "Femme") {         (&& = si les deux conditions sont remplies)
+//     return "Vous êtes une femme et vous êtes majeur.";
 // } 
 // elseif ($age >= 18 && $gender === "Homme") {
-//     echo "Vous êtes un homme et vous êtes majeur.";
+//     return "Vous êtes un homme et vous êtes majeur.";
 // }
 // elseif ($age < 18 && $gender === "Femme") {
-//     echo "Vous êtes une femme et vous êtes mineur.";
+//     return "Vous êtes une femme et vous êtes mineur.";
 // }
 // elseif ($age < 18 && $gender === "Homme") {
-//     echo "Vous êtes un homme et vous êtes mineur.";
+//     return "Vous êtes un homme et vous êtes mineur.";
 // }
 // }
 
